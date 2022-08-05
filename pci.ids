@@ -70,6 +70,8 @@
 		17aa 4021  Ethernet Connection X722 for 1GbE
 		17aa 4022  Ethernet Connection X722 for 1GbE
 		17aa 4024  Ethernet Connection X722 for 1GbE
+	37d2  Ethernet Connection X722 for 10GBASE-T
+		8086 35ce  Ethernet Connection X722 for 10GBASE-T
 	37d3  Ethernet Connection X722 for 10GbE SFP+
 		1590 0219  Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter
 		17aa 4020  Ethernet Connection X722 for 10GbE SFP+
