@@ -12,47 +12,52 @@
 # ETH Cards
 #---------
 
+1077  QLogic Corp.
+	2261  ISP2722-based 16/32Gb Fibre Channel to PCIe Adapter
+		1077 029a  QLE2742-SR 2xSFP+ 32Gb/s PCIe Gen3.0 x8 (Marvell)
+		1077 029c  QLE2692-SR 2xSFP+ 16Gb/s PCIe Gen3.0 x8 (Marvell)
+	8070  FastLinQ QL41000 Series 10/25/40/50GbE Controller
+		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter
 14e4  Broadcom Inc. and subsidiaries
-	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
-		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
-	1751  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
-		14e4 4250  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
-		14e4 5425  Broadcom NetXtreme Quad-port 25Gb SFP28 OCP 3.0 Ethernet Adapter
+	16d7  BCM957414 Family [NetXtreme-E]
+		14e4 1402  BCM957414A4142CC 2xSFP28 25Gb/s PCIe Gen3.0 x8
+	1751  BCM57504 Family Ethernet Adapter Card [NetXtreme-E]
+		14e4 4250  BCM957504-P425G 4xSFP28 25Gb/s PCIe Gen4.0 x16
+		14e4 5425  BCM957504-N425G 4xSFP28 25Gb/s PCIe
 15b3  Mellanox Technologies
 	1015  MT27710 Family [ConnectX-4 Lx]
-		15b3 0003  Stand-up ConnectX-4 Lx EN, 25GbE dual-port SFP28, PCIe3.0 x8, MCX4121A-ACAT
-		19e5 d11b  Huawei Technologies Co., Ltd. Device
-	1017  MT27800 Family [ConnectX-5]
-		15b3 0001  MT27800 Family [ConnectX-5]
-		15b3 0020  ConnectX®-5 EN network interface card, 10/25GbE dual-port SFP28, PCIe3.0 x8, tall bracket ; MCX512A-ACAT
+		15b3 0003  MCX4121A-ACAT 2xSFP28 25Gb/s PCIe Gen3.0 x8
+		15b3 0004  MCX4121A-XCAT 2xSFP28 10Gb/s PCIe Gen3.0 x8
+		15b3 0069  LRES1026PF-2SFP28 2xSFP28 25Gb/s PCIe 3.0 x8 (LR-Link)
+		19e5 d11b  MCX4121A-XCHT 2xSFP28 10Gb/s PCIe Gen3.0 x8 UEFI (Huawei)
+	1017  MT27800 Family [ConnectX-5 VPI]
+		15b3 0001  MCX556A-ECAT 2xSFP28 100Gb/s PCIe Gen3.0 x16
+		15b3 0007  MCX516A-CCAT 2xSFP28 100Gb/s PCIe Gen3.0 x16
+		15b3 0020  MCX512A-ACAT 2xSFP28 25Gb/s PCIe Gen3.0 x8
+		15b3 1021  MCX512A-ACUT 2xSFP28 25Gb/s PCIe Gen3.0 x8 UEFI
 	101d  MT2892 Family [ConnectX-6 Dx]
-		15b3 0013  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+		15b3 0012  MCX621102AN-ADAT 2xSFP28 25Gb/s PCIe Gen4.0 x8
+		15b3 0013  MCX623432AN-ADAB 2xSFP28 25Gb/s OCP Gen4.0 x16
 	101f  MT2894 Family [ConnectX-6 Lx]
-		15b3 0001  MT2894 Family [ConnectX-6 Lx]
+		15b3 0001  MCX631102AN-ADAT 2xSFP28 25Gb/s PCIe Gen4.0 x8
+		15b3 0004  MCX631432AN-ADAB 2xSFP28 25Gb/s OCP Gen4.0 x16
 8086  Intel Corporation
-	0a54  NVMe Datacenter SSD [3DNAND, Beta Rock Controller]
-		8086 4812  NVMe Datacenter SSD [3DNAND] ME 2.5" U.2 (P4610)
-	1521  I350 Gigabit Network Connection
-		8086 0001  Intel Corporation Ethernet Server Adapter I350-T4
-		8086 1521  I350 Gigabit Network Connection
-		15bb 0000  Portwell Inc I350 Gigabit Network Connection
-	1522  I350 Gigabit Fiber Network Connection
-	1533  I210 Gigabit Network Connection
-	1539  I211 Gigabit Network Connection
-	1572  Ethernet Controller X710 for 10GbE SFP+
-		1137 013b  Ethernet Converged NIC X710-DA4
-		1137 020a  Ethernet Converged NIC X710-DA2
-		1374 025c  Silicom Ltd. Ethernet Controller X710 for 10GbE SFP+
-		1590 0000  Ethernet Controller X710 for 10GbE SFP+
-		8086 0000  Ethernet Converged Network Adapter X710
-		8086 0001  Ethernet Converged Network Adapter X710-4
-		8086 0004  Ethernet Converged Network Adapter X710-4
-		8086 0007  Ethernet Converged Network Adapter X710-2
-	158b  Ethernet Controller XXV710 for 25GbE SFP28
-		8086 0002  Ethernet Network Adapter XXV710-2
-	1593  Ethernet Controller E810-C for SFP
-	159b  Ethernet Controller E810-XXV for SFP
-		1137 02be  E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC
+	10fb  Ethernet Controller (Intel 82599ES Based)
+		8086 000c  PE210G2SPi9A-XR 2xSFP+ 10Gb/s PCIe 2.0 x8 (Silicom)
+	1521  I350 Gigabit Ethernet Adapter Card (Intel I350 Based)
+		8086 0001  LREC9714HT/LREC9724PT 4xETH 1Gb/s PCIe 3.0 x8 (LR-Link)
+	1533  i210 Gigabit Network Connection
+	1539  i211 Gigabit Network Connection
+	1572  Ethernet Controller (Intel XL710 Based)
+		1374 025c  PE310G4i71LB-XR 4xSFP+ 10Gb/s PCIe 3.0 x8 (Silicom)
+		8086 0000  Ethernet Converged Network Adapter
+		8086 0007  LREC9812BF-2SFP+ 10Gb/s PCIe 3.0 x8 (LR-Link)
+		8086 00a2  X710DA4OCPV3G1P 4xSFP+ 10Gb/s OCP NIC 3.0
+	158b  Ethernet Network Adapter (XL710-BM2 Based)
+		8086 0002  Intel X710 Series 2xSFP+ 10/25Gb/s | LR-Link LRES1001PF-2SFP28
+	159b  Ethernet Network Adapter (800 Series)
+		8086 0003  LRES1021PF-2SFP28 25Gb/s PCIe 4.0 x8 (LR-Link)
+		8086 0005  E810-XXVDA2 2xSFP28 10/25Gb/s PCIe 4.0 x8
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4020  Intel Ethernet Connection X722 for 10G SFP+
 		17aa 4021  Intel Ethernet Connection X722 for 10G SFP+
@@ -73,7 +78,7 @@
 	37d2  Ethernet Connection X722 for 10GBASE-T
 		8086 35ce  Ethernet Connection X722 for 10GBASE-T
 	37d3  Ethernet Connection X722 for 10GbE SFP+
-		1590 0219  Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter
+		1590 0219  Ethernet 10Gb/s 2-port 568FLR-MMSFP+ Adapter
 		17aa 4020  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4021  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4025  Ethernet Connection X722 for 10GbE SFP+
@@ -87,14 +92,11 @@
 		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
 	2261  ISP2722-based 16/32Gb Fibre Channel to PCIe Adapter
 		1077 0299  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
-		1077 029a  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
 		1077 02a7  QLE2690 Single Port 16Gb FC to PCIe Gen3 x8 Adapter
 		1077 02a8  QLE2692 Dual Port 16Gb FC to PCIe Gen3 x8 Adapter
 	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
 		1077 015d  QLE2562 PCI Express to 8Gb FC Dual Channel
 		1077 015e  QLE2564 PCI Express to 8Gb FC Quad Channel
-	8070  FastLinQ QL41000 Series 10/25/40/50GbE Controller
-		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter
 10df  Emulex Corporation
 	e131  LightPulse 8Gb/s PCIe Shared I/O Fibre Channel Adapter
 	e300  LPe31000/LPe32000 Series 16Gb/32Gb Fibre Channel Adapter
@@ -106,56 +108,57 @@
 
 10de  NVIDIA Corporation
 	1cb1  GP107GL [Quadro P1000]
-		10de 11bc  GP107GL [Quadro P1000]
+		10de 11bc  GP107GL
 	1db6  GV100GL [Tesla V100 PCIe 32GB]
 	1df6  GV100GL [Tesla V100S PCIe 32GB]
-		10de 13d6  GV100GL [Tesla V100S PCIe 32GB]
+		10de 13d6  GV100GL PCIe Gen3 x16
 	1eb8  TU104GL [Tesla T4]
-		10de 12a2  TU104GL [Tesla T4]
+		10de 12a2  TU104GL PCIe Gen3 x16
 	20f1  A100-PCIE-40GB
 		10de 145f  A100-PCIE-40GB
 
 # SAS/SATA RAID/HBA controllers
 #-----------------------------
 
-1000  Broadcom / LSI
-	0014  MegaRAID Tri-Mode SAS3516
-		1000 9460  MegaRAID Tri-Mode SAS3516
-	005d  MegaRAID SAS-3 3108 [Invader]
-		1000 9361  MegaRAID SAS 9361-8i
-		1000 9363  MegaRAID SAS 9361-4i
-		1000 9380  MegaRAID SAS 9380-8e
-	0090  SAS3108 PCI-Express Fusion-MPT SAS-3
-	0091  SAS3108 PCI-Express Fusion-MPT SAS-3
-	0094  SAS3108 PCI-Express Fusion-MPT SAS-3
-	0095  SAS3108 PCI-Express Fusion-MPT SAS-3
-	0096  SAS3004 PCI-Express Fusion-MPT SAS-3
-	0097  SAS3008 PCI-Express Fusion-MPT SAS-3
-		1000 30a0  SAS9300-8e
-		1000 30e0  SAS9300-8i
-	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
-		1000 3040  HBA 9400-8i8e
-	00ac  SAS3416 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
-		1000 3000  HBA 9400-16i
-	00c4  SAS3224 PCI-Express Fusion-MPT SAS-3
-		1000 3190  SAS3224 PCI-Express Fusion-MPT SAS-3
-	00c9  SAS3216 PCI-Express Fusion-MPT SAS-3
-	00ce  MegaRAID SAS-3 3316 [Intruder]
-		1000 9371  MegaRAID SAS 9361-16i
-		1000 9390  MegaRAID SAS 9380-8i8e
-	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
-		1000 4000  MegaRAID 9560-16i
-		1000 4010  MegaRAID 9560-8i
-		1d49 060c  Lenovo ThinkSystem RAID 940-16i 8GB Flash PCIe Gen4 12Gb Adapter
+1000  Broadcom/LSI/AVAGO
+	0014  Tri-Mode Storage Adapter
+		1000 9460  MegaRAID 9460-16i PCIe Gen3.1 SAS/SATA/PCIe_Gen3.1(NVMe)
+		1000 9a80  MegaRAID 9480-8i8e PCIe Gen3.1 SAS/SATA/PCIe_Gen3.1(NVMe)
+	005d  RAID Controller
+		1000 9361  MegaRAID 9361-8i PCIe Gen3 SAS/SATA (RAID_mode)
+		1000 9a61  MegaRAID 9361-8i PCIe Gen3 SAS/SATA (JBOD_mode)
+		1000 9380  MegaRAID 9380-8e PCIe Gen3 SAS/SATA
+	0097  Storage Adapter [Avago_9300 Family]
+		1000 30a0  HBA 9300-8e PCIe Gen3 SAS/SATA (SAS3008_Fusion-MPT Based)
+		1000 30e0  HBA 9300-8i PCIe Gen3 SAS/SATA (SAS3008_Fusion-MPT Based)
+	00ab  Tri-Mode Storage Adapter
+		1000 3040  HBA 9400-8i8e SAS/SATA/PCIe_Gen3.1(NVMe)
+	00ac  Tri-Mode Storage Adapter
+		1000 3000  HBA 9400-16i SAS/SATA/PCIe_Gen3.1(NVMe)
+	00c9  SAS Storage Adapter
+		1000 3180  HBA 9305-16e PCIe Gen3 SAS/SATA
+	00ce  Storage Adapter
+		1000 9390  MegaRAID 9380-8i8e PCIe Gen3 SAS/SATA
+		1000 9a71  MegaRAID 9361-16i PCIe Gen3 SAS
+	00cf  Storage Adapter
+		1000 9370  MegaRAID 9361-24i PCIe Gen3 SAS/SATA
+	00e6  Tri-Mode Storage Adapter
+		1000 4060  HBA 9500-8i 8GB SAS/SATA/PCIe_Gen4(NVMe)
+		1000 4070  HBA 9500-16i 8GB SAS/SATA/PCIe_Gen4(NVMe)
+	10e2  Tri-Mode Storage Adapter
+		1000 4000  MegaRAID 9560-16i 8GB SAS/SATA/PCIe_Gen4(NVMe)
+		1000 4010  MegaRAID 9560-8i 4GB SAS/SATA/PCIe_Gen4(NVMe)
+		1d49 060c  RAID Lenovo 940-16i 8GB SAS/SATA/PCIe_Gen4(NVMe)
 9005  Adaptec
-	028f  Smart Storage PQI SAS
-		9005 0800  SmartRAID 3154-8i
-		9005 0801  SmartRAID 3152-8i
-		9005 0804  Smart Storage PQI 12G SAS/PCIe 3
-		9005 0807  SmartRAID 3162-8i
-		9005 1280  HBA 1100-16i
-		9005 1301  HBA 1100-24i
-		9005 1380  SmartRAID 3154-16i
+	028d  Storage Adapter
+		9005 0554  RAID ASR-8885 PCIe Gen3 12G SAS/SATA (Microsemi)
+	028f  Storage Adapter
+		9005 0800  SmartRAID 3154-8i PCIe Gen3 12G SAS/SATA
+		9005 0801  SmartRAID 3152-8i PCIe Gen3 12G SAS/SATA
+		9005 0807  SmartRAID 3162-8i PCIe Gen3 12G SAS/SATA
+		9005 1280  HBA 1100-16i 12G PCIe Gen3 SAS/SATA
+		9005 1301  HBA 1100-24i 12G PCIe Gen3 SAS/SATA
+		9005 1380  SmartRAID 3154-16i PCIe Gen3 12G SAS/SATA
 
 # NVMe SSD
 #--------
@@ -194,6 +197,9 @@
 		1e0f 0021  U.3 3.2TB
 2646  Kingston Technology Company, Inc.
 	500b  DC1000M NVMe SSD
+8086  Intel Corporation
+	0a54  NVMe Datacenter SSD [Optane SSD DC P4800X/P4801X]
+		8086 4812  SSDPE21K100GA SSD DC P4801X 2.5" 15mm U.2
 
 # Internal devices
 #--------
